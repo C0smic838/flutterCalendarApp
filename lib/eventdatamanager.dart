@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+//import 'package:flutter/material.dart';
 
 class Event {
 
@@ -7,10 +7,5 @@ class Event {
   DateTime? datetime;
   double? duration;
 
-  Event (String title, String description, DateTime datetime, double duration) {
-    this.title = title;
-    this.description = description;
-    this.datetime = datetime;
-    this.duration = duration;
-  }
+  Event (String this.title, String this.description, DateTime this.datetime, double this.duration);
 }
